@@ -105,5 +105,5 @@ buyBtn.addEventListener("click", function () {
   } else if (check == 0) {
     localStorage.setItem("buyPro", JSON.stringify(buyPro));
   }
-  window.location.href = "/Html/cart.html";
+  window.location.href = "cart.html";
 });
